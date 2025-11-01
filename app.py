@@ -80,13 +80,13 @@ def process_token(uid, password):
     game_data.timestamp = "2024-12-05 18:15:32"
     game_data.game_name = "free fire"
     game_data.game_version = 1
-    game_data.version_code = "1.108.3"
+    game_data.version_code = "1.118.1"
     game_data.os_info = "Android OS 9 / API-28 (PI/rel.cjw.20220518.114133)"
     game_data.device_type = "Handheld"
     game_data.network_provider = "Verizon Wireless"
     game_data.connection_type = "WIFI"
-    game_data.screen_width = 1280
-    game_data.screen_height = 960
+    game_data.screen_width = 2436
+    game_data.screen_height = 1080
     game_data.dpi = "240"
     game_data.cpu_info = "ARMv7 VFPv3 NEON VMH | 2400 | 4"
     game_data.total_ram = 5951
@@ -116,7 +116,7 @@ def process_token(uid, password):
     game_data.field_78 = 6
     game_data.field_79 = 1
     game_data.os_architecture = "32"
-    game_data.build_number = "2019117877"
+    game_data.build_number = "2019119030"
     game_data.field_85 = 1
     game_data.graphics_backend = "OpenGLES2"
     game_data.max_texture_units = 16383
@@ -149,7 +149,7 @@ def process_token(uid, password):
         'Expect': "100-continue",
         'X-GA': "v1 1",
         'X-Unity-Version': "2018.4.11f1",
-        'ReleaseVersion': "OB50"
+        'ReleaseVersion': "OB51"
     }
     edata = bytes.fromhex(hex_encrypted_data)
 
